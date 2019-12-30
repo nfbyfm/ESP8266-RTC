@@ -9,4 +9,6 @@ Connect the DS3231-Module to your ESP8266-based board. In case of a Wemos mini i
 
 Afterwards you have to enter the ssid and password of your WiFi-router in the sketch, compile and then upload the code.
 
-Make sure you have all the necessary libraries installed.
+Make sure you have all the necessary libraries installed. 
+
+The code might not work if the NTP-Server can't be reached. In that case try another IP-adress;
